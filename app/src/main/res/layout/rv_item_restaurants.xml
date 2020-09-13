@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="6dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="84dp"
+        android:src="@drawable/icon_zomato"
+        android:layout_height="84dp" />
+    <TextView
+        android:layout_marginLeft="12dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:hint="Cafe"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_item_r_name"/>
+</LinearLayout>
